@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 18px;
+}
+
+html {
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(179, 170, 170);
+}
+
+header {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.title {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 40px;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    margin: 15px;
+    display: inline;
+}
+
+#reset, #color, #grayscale {
+    width: 100px;
+    height: 35px;
+    background-color: rgba(134, 86, 31, 0.897);
+    color: rgba(2, 2, 2, 0.897);
+    outline: none;
+    text-decoration: none;
+    border: 2px solid rgba(8, 8, 8, 0.458);
+}
+
+#normal {
+    width: 100px;
+    height: 35px;
+    background-color: rgba(170, 120, 31, 0.97);
+    color: rgba(2, 2, 2, 0.897);
+    outline: none;
+    text-decoration: none;
+    border: 2px solid rgba(8, 8, 8, 0.458);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    border: 40px solid rgba(290, 21, 21, 0.878);
+    border-radius: 5%;
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+.new { 
+    background: yellow;
+    border-style: solid;      
+}
+
